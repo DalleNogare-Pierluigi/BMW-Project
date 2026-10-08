@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>𝐶𝑜𝑛𝑡𝑎𝑐𝑡𝑜 - 𝐵𝑀𝑊 𝑃𝑅𝑂𝐽𝐸𝐶𝑇</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+       𝐵𝑀𝑊 𝑃𝑅𝑂𝐽𝐸𝐶𝑇
+    </div>
+
+
+    <ul class="menu">
+
+        <li>
+            <a href="index.html">
+                𝑰𝒏𝒊𝒄𝒊𝒐
+            </a>
+        </li>
+
+        <li>
+            <a href="historia.html">
+                𝑯𝒊𝒔𝒕𝒐𝒓𝒊𝒂
+            </a>
+        </li>
+
+        <li>
+            <a href="contacto.html">
+                𝑪𝒐𝒏𝒕𝒂𝒄𝒕𝒐
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<main>
+
+<section id="testdrive" class="seccion">
+
+    <h2>
+        𝑅𝑒𝑠𝑒𝑟𝑣𝑎 𝑡𝑢 𝑇𝑒𝑠𝑡 𝐷𝑟𝑖𝑣𝑒
+    </h2>
+
+    <p>
+        Viví la experiencia BMW reservando una prueba de manejo
+        del modelo que más te guste.
+    </p>
+
+
+    <form
+        id="formTestDrive"
+        class="formulario formularioTestDrive"
+    >
+
+
+        <label for="nombre">
+            Nombre y apellido
+        </label>
+
+        <input
+            type="text"
+            id="nombre"
+            placeholder="Ingresá tu nombre completo"
+            required
+        >
+
+
+        <label for="correo">
+            Correo electrónico
+        </label>
+
+        <input
+            type="email"
+            id="correo"
+            placeholder="ejemplo@correo.com"
+            required
+        >
+
+
+        <label for="modelo">
+            Modelo
+        </label>
+
+        <select id="modelo" required>
+
+            <option value="">
+                Seleccioná un modelo
+            </option>
+
+            <option value="BMW M4 Competition">
+                BMW M4 Competition
+            </option>
+
+            <option value="BMW X5 M60i">
+                BMW X5 M60i
+            </option>
+
+            <option value="BMW i4 M50">
+                BMW i4 M50
+            </option>
+
+        </select>
+
+
+        <label for="fechaTestDrive">
+            Fecha preferida
+        </label>
+
+        <input
+            type="date"
+            id="fechaTestDrive"
+            required
+        >
+
+
+        <button type="submit">
+            Reservar Test Drive
+        </button>
+
+
+    </form>
+
+</section>
+
+<section id="service" class="seccion">
+
+    <h2>
+        𝐴𝑔𝑒𝑛𝑑𝑎𝑚𝑖𝑒𝑛𝑡𝑜 𝑑𝑒 𝑆𝑒𝑟𝑣𝑖𝑐𝑒
+    </h2>
+
+    <p>
+        Reservá un turno para el mantenimiento
+        de tu vehículo.
+    </p>
+
+
+    <form
+        id="formService"
+        class="formulario formularioService"
+    >
+
+
+        <label for="nombreService">
+            Nombre y apellido
+        </label>
+
+        <input
+            type="text"
+            id="nombreService"
+            placeholder="Ingresá tu nombre completo"
+            required
+        >
+
+
+        <label for="correoService">
+            Correo electrónico
+        </label>
+
+        <input
+            type="email"
+            id="correoService"
+            placeholder="ejemplo@correo.com"
+            required
+        >
+
+
+        <label for="modeloService">
+            Modelo del vehículo
+        </label>
+
+        <input
+            type="text"
+            id="modeloService"
+            placeholder="Ej: BMW M4 Competition"
+            required
+        >
+
+
+        <label for="fechaService">
+            Fecha preferida
+        </label>
+
+        <input
+            type="date"
+            id="fechaService"
+            required
+        >
+
+
+        <label for="tipoService">
+            Tipo de Service
+        </label>
+
+        <select id="tipoService" required>
+
+            <option value="">
+                Seleccioná el tipo de Service
+            </option>
+
+            <option value="Cambio de aceite">
+                Cambio de aceite
+            </option>
+
+            <option value="Diagnóstico general">
+                Diagnóstico general
+            </option>
+
+            <option value="Service completo">
+                Service completo
+            </option>
+
+            <option value="Frenos">
+                Frenos
+            </option>
+
+            <option value="Neumáticos">
+                Neumáticos
+            </option>
+
+        </select>
+
+
+        <button type="submit">
+            Reservar turno
+        </button>
+
+
+    </form>
+
+</section>
+
+<section id="contacto" class="seccion">
+
+    <h2>
+        𝐶𝑜𝑛𝑡𝑎𝑐𝑡𝑜
+    </h2>
+
+    <p>
+        ¿Tenés alguna consulta?
+        Completá el formulario y nos pondremos
+        en contacto con vos.
+    </p>
+
+
+    <form
+        id="formContacto"
+        class="formulario formularioContacto"
+    >
+
+
+        <label for="nombreContacto">
+            Nombre y apellido
+        </label>
+
+        <input
+            type="text"
+            id="nombreContacto"
+            placeholder="Ingresá tu nombre completo"
+            required
+        >
+
+
+        <label for="correoContacto">
+            Correo electrónico
+        </label>
+
+        <input
+            type="email"
+            id="correoContacto"
+            placeholder="ejemplo@correo.com"
+            required
+        >
+
+
+        <label for="asuntoContacto">
+            Asunto
+        </label>
+
+        <input
+            type="text"
+            id="asuntoContacto"
+            placeholder="¿Sobre qué querés consultar?"
+            required
+        >
+
+
+        <label for="mensajeContacto">
+            Mensaje
+        </label>
+
+        <textarea
+            id="mensajeContacto"
+            placeholder="Escribí tu consulta..."
+            required
+        ></textarea>
+
+
+        <button type="submit">
+            Enviar consulta
+        </button>
+
+
+    </form>
+
+</section>
+
+<section id="whatsapp" class="seccion">
+
+    <h2>
+        𝐶𝑜𝑛𝑡𝑎𝑐𝑡𝑜 𝑝𝑜𝑟 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝
+    </h2>
+
+    <p>
+        ¿Querés comunicarte directamente con nosotros?
+        Dejanos tu nombre y tu consulta.
+    </p>
+
+
+    <form
+        id="formWhatsapp"
+        class="formulario formularioWhatsApp"
+    >
+
+
+        <label for="nombreWhatsapp">
+            Nombre y apellido
+        </label>
+
+        <input
+            type="text"
+            id="nombreWhatsapp"
+            placeholder="Ingresá tu nombre completo"
+            required
+        >
+
+
+        <label for="mensajeWhatsapp">
+            Consulta
+        </label>
+
+        <textarea
+            id="mensajeWhatsapp"
+            placeholder="Escribí tu consulta..."
+            required
+        ></textarea>
+
+
+        <button type="submit">
+            Continuar por WhatsApp
+        </button>
+
+
+    </form>
+
+</section>
+
+<section id="registroReserva" class="seccion">
+
+    <h2>
+        𝑅𝑒𝑔𝑖𝑠𝑡𝑟𝑜 𝑑𝑒 𝑟𝑒𝑠𝑒𝑟𝑣𝑎
+    </h2>
+
+    <p>
+        Registrá una solicitud general para que
+        nuestro sistema pueda procesarla.
+    </p>
+
+
+    <form
+        id="formRegistroReserva"
+        class="formulario formularioReserva"
+    >
+
+
+        <label for="nombreReserva">
+            Nombre y apellido
+        </label>
+
+        <input
+            type="text"
+            id="nombreReserva"
+            placeholder="Ingresá tu nombre completo"
+            required
+        >
+
+
+        <label for="correoReserva">
+            Correo electrónico
+        </label>
+
+        <input
+            type="email"
+            id="correoReserva"
+            placeholder="ejemplo@correo.com"
+            required
+        >
+
+
+        <label for="tipoReserva">
+            Tipo de reserva
+        </label>
+
+        <select id="tipoReserva" required>
+
+            <option value="">
+                Seleccioná el tipo de reserva
+            </option>
+
+            <option value="Test Drive">
+                Test Drive
+            </option>
+
+            <option value="Service">
+                Service
+            </option>
+
+            <option value="Consulta">
+                Consulta general
+            </option>
+
+        </select>
+
+
+        <button type="submit">
+            Registrar solicitud
+        </button>
+
+
+    </form>
+
+</section>
+
+<section id="consultaReservas" class="seccion">
+
+    <h2>
+        𝐶𝑜𝑛𝑠𝑢𝑙𝑡𝑎 𝑑𝑒𝑙 𝑠𝑖𝑠𝑡𝑒𝑚𝑎
+    </h2>
+
+    <p>
+        Consultá la información registrada
+        actualmente en el sistema.
+    </p>
+
+
+    <div class="panelConsulta">
+
+        <button
+            id="btnConsultarReservas"
+            class="botonConsulta"
+            type="button"
+        >
+            Consultar reservas
+        </button>
+
+
+        <div id="resultadoReservas"></div>
+
+    </div>
+
+
+</section>
+
+<section id="financiacion" class="seccion">
+
+    <h2>
+        𝑆𝑖𝑚𝑢𝑙𝑎𝑑𝑜𝑟 𝑑𝑒 𝑓𝑖𝑛𝑎𝑛𝑐𝑖𝑎𝑐𝑖𝑜́𝑛
+    </h2>
+
+    <p>
+        Calculá cuánto pagarías según el
+        valor del vehículo, el anticipo y la
+        cantidad de cuotas.
+    </p>
+
+
+    <div class="simulador formularioFinanciacion">
+
+
+        <label for="precio">
+            Precio del vehículo
+        </label>
+
+
+        <input
+            type="number"
+            id="precio"
+            placeholder="Ej: 7500000"
+        >
+
+
+        <label for="anticipo">
+            Anticipo
+        </label>
+
+
+        <input
+            type="number"
+            id="anticipo"
+            placeholder="Ej: 1500000"
+        >
+
+
+        <label for="cuotas">
+            Cantidad de cuotas
+        </label>
+
+
+        <select id="cuotas">
+
+            <option value="12">
+                12 cuotas
+            </option>
+
+            <option value="24">
+                24 cuotas
+            </option>
+
+            <option value="36">
+                36 cuotas
+            </option>
+
+            <option value="48">
+                48 cuotas
+            </option>
+
+            <option value="60">
+                60 cuotas
+            </option>
+
+        </select>
+
+
+        <button
+            type="button"
+            onclick="calcularFinanciacion()"
+        >
+            Calcular financiación
+        </button>
+
+
+        <h3 id="resultado"></h3>
+
+
+    </div>
+
+</section>
+
+
+</main>
+
+<footer class="footerPremium">
+
+    <div class="footerLinea"></div>
+
+
+    <div class="footerContenido">
+
+        <div class="footerMarca">
+            𝐵𝑀𝑊 𝑃𝑅𝑂𝐽𝐸𝐶𝑇
+        </div>
+
+
+        <div class="footerDescripcion">
+            Proyecto académico de desarrollo web orientado
+            a la documentación de la historia, evolución
+            tecnológica, ingeniería y cultura del automóvil.
+        </div>
+
+
+        <div class="footerDatos">
+
+            <span>
+                𝐶𝐴𝑀𝐼𝐿𝐴 - 𝑃𝐼𝐸𝑅𝐿𝑈𝐼𝐺𝐼
+            </span>
+
+            <span>
+                2026
+            </span>
+
+            <span>
+              𝐷𝐸𝑆𝐴𝑅𝑅𝑂𝐿𝐿𝑂 𝑊𝐸𝐵 𝐴𝐶𝐴𝐷𝐸́𝑀𝐼𝐶𝑂
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="footerLegal">
+
+        © 2026 Marquez, Camila Desiree - Dalle Nogare, Pierluigi. Todos los derechos reservados.
+        El contenido textual, la estructura visual y el diseño
+        de este proyecto fueron desarrollados exclusivamente
+        con fines académicos.
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
