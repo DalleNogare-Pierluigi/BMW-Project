@@ -3555,3 +3555,15 @@ main {
         "Orbitron",
         sans-serif;
 }
+
+.hero h2,
+.intro-title,
+.seccion h2,
+.tituloHistoria h1,
+.bloqueIngenieria h2,
+.contenedorDesplegables summary,
+.enlacesExternos h3,
+.formularioFinanciacion h2 {
+    font-family: "Cambria Math", "Segoe UI Symbol", "Segoe UI",
+                 "Arial Unicode MS", sans-serif;
+}
