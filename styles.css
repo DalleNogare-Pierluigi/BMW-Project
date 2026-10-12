@@ -3405,3 +3405,137 @@ main {
     }
 
 }
+
+
+/* =========================================
+   BMW PROJECT — CONTACTO PREMIUM
+   Mejora visual sin modificar funciones
+========================================= */
+
+/* Tarjetas de cada sección de Contacto */
+#testdrive.seccion,
+#service.seccion,
+#contacto.seccion,
+#whatsapp.seccion,
+#registroReserva.seccion,
+#consultaReservas.seccion,
+#financiacion.seccion {
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    max-width: 1000px;
+    margin: 45px auto;
+    padding: 55px clamp(20px, 5vw, 65px);
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(0, 255, 225, 0.045),
+            rgba(168, 85, 247, 0.07),
+            rgba(5, 5, 9, 0.96)
+        );
+
+    border: 1px solid rgba(0, 255, 225, 0.22);
+    border-radius: 24px;
+
+    box-shadow:
+        0 0 25px rgba(0, 255, 225, 0.055),
+        inset 0 0 25px rgba(168, 85, 247, 0.025);
+
+    position: relative;
+    overflow: hidden;
+}
+
+/* Primera sección: espacio para la navegación fija */
+#testdrive.seccion {
+    margin-top: 135px;
+}
+
+/* Títulos: combinación turquesa y violeta */
+#testdrive.seccion h2,
+#service.seccion h2,
+#contacto.seccion h2,
+#whatsapp.seccion h2,
+#registroReserva.seccion h2,
+#consultaReservas.seccion h2,
+#financiacion.seccion h2 {
+    max-width: 800px;
+    margin: 0 auto 32px;
+    text-align: center;
+    font-size: clamp(24px, 3.5vw, 38px);
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+
+    text-shadow:
+        0 0 12px rgba(0, 255, 225, 0.22),
+        0 0 22px rgba(168, 85, 247, 0.15);
+}
+
+/* Formularios centrados y cómodos de completar */
+#testdrive .formulario,
+#service .formulario,
+#contacto .formulario,
+#whatsapp .formulario,
+#registroReserva .formulario,
+#financiacion .simulador {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+/* Área de consulta del sistema */
+#consultaReservas .panelConsulta {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+/* Los campos deben adaptarse al ancho disponible */
+#testdrive input,
+#testdrive select,
+#service input,
+#service select,
+#contacto input,
+#contacto textarea,
+#whatsapp input,
+#whatsapp textarea,
+#registroReserva input,
+#registroReserva select,
+#financiacion input,
+#financiacion select {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* Ajustes para celulares */
+@media (max-width: 600px) {
+
+    #testdrive.seccion,
+    #service.seccion,
+    #contacto.seccion,
+    #whatsapp.seccion,
+    #registroReserva.seccion,
+    #consultaReservas.seccion,
+    #financiacion.seccion {
+        width: calc(100% - 24px);
+        margin: 24px auto;
+        padding: 32px 18px;
+        border-radius: 18px;
+    }
+
+    #testdrive.seccion {
+        margin-top: 115px;
+    }
+
+    #testdrive.seccion h2,
+    #service.seccion h2,
+    #contacto.seccion h2,
+    #whatsapp.seccion h2,
+    #registroReserva.seccion h2,
+    #consultaReservas.seccion h2,
+    #financiacion.seccion h2 {
+        margin-bottom: 25px;
+        font-size: clamp(21px, 6vw, 29px);
+    }
+}
