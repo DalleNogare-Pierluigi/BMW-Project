@@ -2841,8 +2841,6 @@ main {
 
 @media (max-width: 768px) {
 
-    
-
     body {
         overflow-x: hidden;
     }
@@ -3054,6 +3052,114 @@ main {
         box-sizing: border-box;
         white-space: normal;
         text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 12px;
+    }
+
+    .navbar .logo {
+        font-size: clamp(20px, 5.5vw, 26px);
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px 22px;
+    }
+
+    .menu li a {
+        display: inline-block;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        padding: 6px 0;
+    }
+
+    .hero {
+        min-height: 100svh;
+        height: auto;
+        padding: 150px 16px 40px;
+    }
+
+    .hero-overlay {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .hero h2 {
+        font-size: clamp(25px, 7vw, 34px);
+        line-height: 1.25;
+        overflow-wrap: break-word;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 1.75;
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .botonPrincipal {
+        display: block;
+        width: fit-content;
+        max-width: 100%;
+        margin: 28px auto 0;
+        padding: 14px 22px;
+        font-size: 15px;
+        line-height: 1.5;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .enlacesExternos {
+        width: 100%;
+        max-width: 100%;
+        margin: 30px auto;
+        padding: 22px 16px;
+        box-sizing: border-box;
+    }
+
+    .enlacesExternos a {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+        padding: 12px 10px;
+        box-sizing: border-box;
+        overflow-wrap: break-word;
+    }
+    
+    .seccion {
+        padding: 75px 16px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .seccion h2 {
+        font-size: clamp(25px, 7vw, 34px);
+        line-height: 1.25;
+    }
+
+    .seccion p {
+        font-size: 16px;
+        line-height: 1.75;
     }
 
 }
