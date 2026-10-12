@@ -3012,3 +3012,48 @@ main {
     }
 
 }
+/**/
+@media screen and (max-width: 768px) {
+
+    .hero {
+        min-height: 100svh;
+        height: auto;
+        padding: 100px 20px 40px;
+        box-sizing: border-box;
+    }
+
+    .hero-overlay {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 24px 18px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .hero-overlay h2 {
+        font-size: clamp(1.4rem, 6vw, 2rem);
+        line-height: 1.3;
+        overflow-wrap: break-word;
+    }
+
+    .hero-overlay p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 1rem;
+        line-height: 1.7;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        box-sizing: border-box;
+    }
+
+    .botonPrincipal {
+        display: inline-block;
+        max-width: 100%;
+        box-sizing: border-box;
+        white-space: normal;
+        text-align: center;
+    }
+
+}
