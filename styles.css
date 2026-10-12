@@ -3539,31 +3539,3 @@ main {
         font-size: clamp(21px, 6vw, 29px);
     }
 }
-
-.hero h2,
-.intro-title,
-.seccion h2,
-.tituloHistoria h1,
-.bloqueIngenieria h2,
-.contenedorDesplegables summary,
-.enlacesExternos h3,
-.formularioFinanciacion h2 {
-    font-family:
-        "Segoe UI",
-        "Cambria Math",
-        "Arial Unicode MS",
-        "Orbitron",
-        sans-serif;
-}
-
-.hero h2,
-.intro-title,
-.seccion h2,
-.tituloHistoria h1,
-.bloqueIngenieria h2,
-.contenedorDesplegables summary,
-.enlacesExternos h3,
-.formularioFinanciacion h2 {
-    font-family: "Cambria Math", "Segoe UI Symbol", "Segoe UI",
-                 "Arial Unicode MS", sans-serif;
-}
