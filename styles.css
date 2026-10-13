@@ -1910,6 +1910,12 @@ main {
     position: relative;
 }
 
+@media (min-width: 1500px) {
+
+    .bloqueIngenieria .seccion {padding: 120px 0;}
+
+}
+
 .etiquetaIngenieria {
     font-family: Cambria;
     font-style: italic;
@@ -1918,6 +1924,8 @@ main {
     color: #00ffd5;
     margin-bottom: 20px;
 }
+
+#textoEtiquetaIngenieria {font-style: normal}
 
 .bloqueIngenieria h2 {
     margin: 0;
@@ -1935,7 +1943,7 @@ main {
 }
 
 .introduccionIngenieria {
-    max-width: 700px;
+    max-width: 600px;
     margin: 25px 0 50px;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.8;
