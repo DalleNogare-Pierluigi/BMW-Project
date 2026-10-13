@@ -157,7 +157,9 @@ header{
 
 .navbar .logo{
 
-    font-family:'Orbitron',sans-serif;
+    font-family:Cambria;
+
+    font-style:italic;
 
     color:var(--turquesa);
 
@@ -200,6 +202,10 @@ header{
     gap:35px;
 
     align-items:center;
+
+    font-family: Times;
+
+    font-style: italic;
 
 }
 
@@ -383,11 +389,19 @@ header{
 
 }
 
+#comenzarRecorrido {
+
+    font-family: Cambria;
+
+    font-style: italic;
+
+}
+
 .hero h2{
 
     font-size:72px;
 
-    font-family:'Orbitron',sans-serif;
+    font-family: Times;
 
     line-height:1.15;
 
@@ -675,7 +689,40 @@ header{
 
 }
 
-.desplegableBMW summary,
+.desplegableBMW summary {
+
+    list-style:none;
+
+    cursor:pointer;
+
+    padding:25px 30px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:20px;
+
+    color:#ffffff;
+
+    font-family:'Orbitron',sans-serif;
+
+    font-size:22px;
+
+    letter-spacing:1px;
+
+    transition:
+
+        color .3s ease,
+
+        padding-left .3s ease;
+
+    user-select:none;
+
+}
+
 .vehiculo summary,
 .cardAuto summary,
 .prototipo summary{
@@ -696,7 +743,9 @@ header{
 
     color:#ffffff;
 
-    font-family:'Orbitron',sans-serif;
+    font-family: Cambria;
+
+    font-style: italic;
 
     font-size:22px;
 
@@ -941,6 +990,10 @@ header{
     color:var(--turquesa);
 
     font-size:48px;
+
+    font-family: Times;
+
+    font-style: oblique;
 
     margin-bottom:25px;
 
@@ -1209,7 +1262,9 @@ header{
 
     color:var(--turquesa);
 
-    font-family:'Orbitron',sans-serif;
+    font-family: Cambria;
+
+    font-style: italic;
 
     font-size:14px;
 
@@ -1258,7 +1313,9 @@ header{
 
     margin:0;
 
-    font-family:'Orbitron',sans-serif;
+    font-family: Cambria;
+
+    font-style: italic;
 
     font-size:clamp(42px, 7vw, 82px);
 
@@ -1301,7 +1358,9 @@ header{
 
         rgba(255,255,255,.75);
 
-    font-family:'Orbitron',sans-serif;
+    font-family: Cambria;
+
+    font-style: italic;
 
     font-size:15px;
 
@@ -1716,7 +1775,8 @@ main {
 }
 
 .footerMarca {
-    font-family: "Orbitron", sans-serif;
+    font-family: Cambria;
+    font-style: italic;
     font-size: 1.4rem;
     font-weight: 700;
     letter-spacing: 4px;
@@ -1736,7 +1796,8 @@ main {
     flex-direction: column;
     align-items: flex-end;
     gap: 8px;
-    font-family: "Orbitron", sans-serif;
+    font-family: Cambria;
+    font-style: oblique;
     font-size: 0.65rem;
     letter-spacing: 2px;
     color: rgba(255, 255, 255, 0.55);
@@ -1782,7 +1843,8 @@ main {
 
 .eyebrowHistoria {
     margin-bottom: 18px;
-    font-family: "Orbitron", sans-serif;
+    font-family: Cambria;
+    font-style: italic;
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 5px;
@@ -1791,19 +1853,20 @@ main {
 
 .tituloHistoria h1 {
     margin: 0;
-    font-family: "Orbitron", sans-serif;
+    font-family: 'Orbitron';
     font-size: clamp(3rem, 8vw, 7.5rem);
-    line-height: 0.95;
+    line-height: 1.2;
     font-weight: 800;
     letter-spacing: -3px;
     color: #ffffff;
-    text-transform: uppercase;
     text-shadow:
         0 0 20px rgba(255, 255, 255, 0.08);
 }
 
 .tituloHistoria h1 span {
     display: block;
+    font-family: Cambria;
+    font-style: italic;
     background: linear-gradient(
         90deg,
         #00ffd5,
@@ -1829,7 +1892,8 @@ main {
     gap: 18px;
     align-items: center;
     margin-top: 40px;
-    font-family: "Orbitron", sans-serif;
+    font-family: Cambria;
+    font-style: italic;
     font-size: 0.65rem;
     letter-spacing: 3px;
     color: rgba(255, 255, 255, 0.35);
@@ -1847,7 +1911,8 @@ main {
 }
 
 .etiquetaIngenieria {
-    font-family: "Orbitron", sans-serif;
+    font-family: Cambria;
+    font-style: italic;
     font-size: 0.7rem;
     letter-spacing: 4px;
     color: #00ffd5;
@@ -1864,6 +1929,8 @@ main {
 
 .bloqueIngenieria h2 span {
     display: block;
+    font-family: Cambria;
+    font-style: italic;
     color: #00ffd5;
 }
 
@@ -1900,7 +1967,8 @@ main {
 
 .categoriaIngenieria {
     margin: 0 0 10px;
-    font-family: "Orbitron", sans-serif;
+    font-family: Times;
+    font-style: italic;
     font-size: 0.65rem;
     letter-spacing: 4px;
     color: #00ffd5;
@@ -2673,7 +2741,9 @@ main {
 
     margin: 0 0 15px;
 
-    font-family: "Orbitron", sans-serif;
+    font-family: Cambria;
+
+    font-style: italic;
 
     font-size: .75rem;
 
@@ -2691,7 +2761,9 @@ main {
 
     margin: 0 0 25px;
 
-    font-family: "Orbitron", sans-serif;
+    font-family: Cambria;
+
+    font-style: italic;
 
     font-size: clamp(1.8rem, 4vw, 3rem);
 
@@ -2700,6 +2772,14 @@ main {
     line-height: 1.1;
 
     color: #ffffff;
+
+}
+
+.contenidoHistoria h3 span {
+
+    font-family: 'Orbitron';
+
+    font-style: normal;
 
     text-transform: uppercase;
 
@@ -2782,7 +2862,13 @@ main {
 
 .enlacesExternos h3 {
 
-    font-family: "Orbitron", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+
+    font-style: italic;
+
+    transform: skewX(16deg);
+
+    font-size: xx-large;
 
     color: #ffffff;
 
@@ -2804,9 +2890,11 @@ main {
 
     text-decoration: none;
 
-    font-family: "Poppins", sans-serif;
-
     font-weight: 600;
+
+    font-family: Times;
+
+    font-style: oblique;
 
     border: 1px solid #00ffff;
 
